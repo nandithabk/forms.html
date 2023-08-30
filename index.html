@@ -7,3 +7,66 @@ Challenge 4: When the form is submitted, get the user's response and add the sam
 -->
 
 <!-- your code goes below this comment -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>student login</title>
+</head>  
+<body>  
+<center> <h1> Student Login Form </h1> </center> 
+<form>
+    <div class="container"> 
+        <label>Username: </label> 
+        <input type="text" name="username" placeholder="Enter Username" required>
+        <label>Password: </label> 
+        <input type="password" name="password" placeholder="Enter Password" required>
+        <button type="submit">Login</button> 
+        <button type="button" class="cancelbtn"> Cancel</button><br>
+        Forgot <u href="#"> password? </u> 
+    </div> 
+</form>
+<style>
+
+input[type=text], input[type=password] { 
+    width: 100%; 
+    margin: 8px 0;
+    padding: 12px 20px; 
+    border: 3px solid red; 
+    box-sizing: border-box; 
+}
+
+button { 
+    background-color: #0CC8F2;
+    width: 100%;
+    color: black; 
+    padding: 15px; 
+    margin: 10px 0px; 
+    border: none; 
+    cursor: pointer;
+     } 
+
+button:hover { 
+    opacity: 0.7; 
+}
+
+form { 
+    border: 3px solid red; 
+}
+ 
+.cancelbtn { 
+    width: auto; 
+    padding: 10px 18px;
+    margin: 10px 5px;
+} 
+
+.container { 
+    padding: 20px; 
+    background-color: #8AE2D2;
+} 
+</style>
+
+</body>   
+</html>
